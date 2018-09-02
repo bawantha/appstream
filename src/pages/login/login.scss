@@ -1,0 +1,52 @@
+page-login {
+    .bg-image{
+        background-image: url('../assets/imgs/bg2.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+    }
+    .no-scroll .scroll-content{
+        overflow: hidden;
+    }
+
+    .logo{
+        display: block;
+        margin: auto;
+        width: 50%;
+        margin-top: 2vh;
+    }
+
+    .label{
+        background-color: rgba(255,255,255,0)
+    }
+
+    .list{
+        width: 50%;
+        position: absolute;
+        right:100px;
+        margin: auto;
+    }
+
+    .text{
+        text-align: center;
+        margin-top:30vh;
+    }
+    .myBtn{
+        width: 50%;
+    }
+
+    .fa-bt{
+        position: absolute;
+        left: 60px;
+        margin-top:1.4vh;
+        width:30%;
+    }
+    .twitter-bt{
+        position: absolute;
+        right : 60px;
+        margin-top:1.4vh;
+        width:30%;
+    }
+
+}
